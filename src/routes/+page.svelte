@@ -15,7 +15,7 @@
 
 {#if show}
   {#each items as item}
-    <div transition:slide>
+    <div transition:slide|global>
       {item}
     </div>
   {/each}
